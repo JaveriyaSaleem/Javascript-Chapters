@@ -60,6 +60,14 @@ var myNums = 2;
 var addNew = 3;
 alert(myNums + addNew);
 
+// Chap 6 Math expressions: Unfamiliar operators
+var num = 5;
+console.log(num+2);
+
+num = --num;
+console.log(num);
+
+
 
 
 
