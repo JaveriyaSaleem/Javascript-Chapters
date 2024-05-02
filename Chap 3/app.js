@@ -31,3 +31,5 @@ var productTitle = "T-Shirt(s)";
 var quantity = "5";
 
 document.write("\n" + visitorName + " ordered " + quantity + productTitle + " on XYZ Clothing store");
+
+// END OF CHAPTER 3 
