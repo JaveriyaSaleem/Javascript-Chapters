@@ -15,7 +15,7 @@ alert(vistingNum);
 // 3. Declare a variable called birthYear & assign to it your
 // birth year. Show the following message in your browser:
 var birthYear = 2004;
-document.write("My birth year is "+ birthYear);
+document.write("<strong>My birth year is</strong> "+ birthYear + "<br>" ); 
 
 // 4. A visitor visits an online clothing store
 // www.xyzClothing.com . Write a script to store in variables
@@ -26,10 +26,10 @@ document.write("My birth year is "+ birthYear);
 // order
 // Show the following message in your browser: “John
 // Doe ordered 5 T-shirt(s) on XYZ Clothing store”.
-var visitorName = "John Doe";
+var visitorName = "John Doe" ;
 var productTitle = "T-Shirt(s)";
 var quantity = "5";
 
-document.write("\n" + visitorName + " ordered " + quantity + productTitle + " on XYZ Clothing store");
+document.write("\n" + "<strong>"+ visitorName+ "</strong>" + " ordered " + "<strong>" + quantity + productTitle +"</strong>" + " on XYZ Clothing store");
 
 // END OF CHAPTER 3 
