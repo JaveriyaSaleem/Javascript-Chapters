@@ -220,6 +220,8 @@ var qtyOf_Snake = (myMaxAge - myCurrentAge) * amoutOfSnack;
 document.write ("I will need " + qtyOf_Snake + " to last you until the ripe old age of " + myMaxAge );
 
 
+// End 
+
 
 
 
