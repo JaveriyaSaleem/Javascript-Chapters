@@ -147,7 +147,88 @@ document.write("<h3>MARK SHEET:</h3>"+
 // and 1 Saudi Riyal = 28 Pakistani Rupee)
 document.write("<h3>QUESTION 9</h3>");
 document.write("<h3>Currency Converter to PKR</h3>");
-var 
+
+var usDollar = 10;
+var saudiRiyal = 25;
+var dollarToPkr = 270;
+var riyalToPkr = 71;
+var total$ = usDollar * dollarToPkr + saudiRiyal * riyalToPkr
+document.write("Total Currency in PKR: " +  total$ + "<br>");
+
+document.write("<h3>QUESTION 10</h3>");
+// 10. Write a program to initialize a variable with some
+// number and do arithmetic in following sequence:
+// a. Add 5
+// b. Multiply by 10
+// c. Divide the result by 2
+// Perform all calculations in a single expression
+var numberArth = 44;
+document.write ("Answer " + numberArth + 5 * 10 / 2); 
+
+document.write("<h3>QUESTION 11</h3>");
+// 11. The Age Calculator: Forgot how old someone is?
+// Calculate it!
+// a. Store the current year in a variable.
+// b. Store their birth year in a variable.
+// c. Calculate their 2 possible ages based on the stored
+// values.
+document.write("<h3>Age Converter</h3>");
+var currentYear = 2016;
+var birthYear = 1992;
+var age1 = currentYear - birthYear;
+document.write("My Age "+ age1);
+
+// 12. The Geometrizer: Calculate properties of a circle.
+// a. Store a radius into a variable.
+// b. Calculate the circumference based on the radius, and
+// output “The circumference is NN”.
+// (Hint : Circumference of a circle = 2 π r , π = 3.142)
+// Calculate the area based on the radius, and output “The
+// area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
+document.write("<h3>Ques: 12 , Geometrizer </h3>");
+// circumference of a circle is the distance around the circle
+var radius = 20;
+document.write("Radius: " + radius + "<br>");
+var circumference = 2 * 3.142 * 20;
+document.write("Circumference of the Circle is: " + circumference + "<br>");
+var areaOfaCircle = 3.142 * 20 * 20;
+document.write("The Area is: " + areaOfaCircle + "<br>");
+
+// 13. The Lifetime Supply Calculator: Ever wonder how
+// much a “lifetime supply” of your favorite snack is?
+// Wonder no more.
+// a. Store your favorite snack into a variable
+// b. Store your current age into a variable.
+// c. Store a maximum age into a variable.
+// d. Store an estimated amount per day (as a number).
+// e. Calculate how many would you eat total for the rest of
+// your life.
+// Output the result to the screen like so: “You will need
+// NNNN to last you until the ripe old age of NN”.
+
+document.write("<h3>Question 13 </h3>");
+document.write("<h3>The Lifetime Supply Calculator: </h3>");
+var snack = "Potato Chips";
+document.write("Fav Snack: " + snack + "<br>");
+var myCurrentAge = 20;
+document.write("My Current Age: " + myCurrentAge + "<br>");
+var myMaxAge = 105;
+document.write("My Max Age: " + myMaxAge + "<br>");
+var amoutOfSnack = 5 ;
+document.write("Amount of Snacks per day: " + amoutOfSnack + "<br>");
+var qtyOf_Snake = (myMaxAge - myCurrentAge) * amoutOfSnack;
+document.write ("I will need " + qtyOf_Snake + " to last you until the ripe old age of " + myMaxAge );
+
+
+
+
+
+
+
+
+
+
+
 
 
 
