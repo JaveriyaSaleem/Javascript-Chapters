@@ -81,4 +81,75 @@ document.write(
     promptValue + " X "+ ++tableValue + " = " + (promptValue*tableValue) + "<br>" +
     promptValue + " X "+ ++tableValue + " = " + (promptValue*tableValue) + "<br>" 
 );
+// 6. The Temperature Converter: It’s hot out! Let’s make a
+// converter based on the steps here.
+// a. Store a Celsius temperature into a variable.
+// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+// c. Now store a Fahrenheit temperature into a variable.
+// d. Convert it to Celsius & output “NNoF is NNoC”.
+// Celsius to Fahrenheit conversion
+document.write("<h1>Temperate Converter</h1>");
+document.write("<h3>Converted to Fahrenheit</h3>");
+var celsiusTemp = 32;
+var fahrenheitTemp = (celsiusTemp * 9/5) + 32;
+document.write(celsiusTemp + "°C is " + fahrenheitTemp + "°F" + "<br>");
+
+// Fahrenheit to Celsius conversion
+document.write("<h3>Converted to Celsius</h3>");
+var fahrenheitTemp2 = 77;
+var celsiusTemp2 = (fahrenheitTemp2 - 32) * 5/9;
+document.write(fahrenheitTemp2 + "°F is " + celsiusTemp2 + "°C");
+
+// 7. Write a program to implement checkout process of a
+// shopping cart system for an e-commerce website. Store
+// the following in variables
+// a. Price of item 1
+// b. Price of item 2
+// c. Ordered quantity of item 1
+// d. Ordered Quantity of item 2
+// e. Shipping charges
+document.write("<h3>QUESTION 7</h3>");
+var price_1 = 68;
+var price_2 = 73;
+var orderQty_1 = 4;
+var orderQty_2 = 2;
+var shippingCharges = 280;
+var totalcost = price_1 * orderQty_1 + price_2 * orderQty_2 + shippingCharges;
+
+document.write("<ul>" +"<li>"+ "Price of item 1 is " + price_1 + "</li>" + "<br>"+
+"<li>"+ "Price of item 2 is " + price_2 + "</li>" + "<br>"+
+"<li>"+ "Order Quantity of Item 1 is " + orderQty_1 + "</li>" + "<br>"+
+"<li>"+ "Order Quantity of Item 2 is " + orderQty_2 + "</li>" + "<br>"+
+"<li>"+ "Shipping Charges are " + shippingCharges + "</li>" + "<br>"+
+"<li>"+ "Total cost of your order is " + totalcost + " Rupees" + "</li>" + "</ul>"
+
+);
+
+// 8. Store total marks & marks obtained by a student in 2
+// variables. Compute the percentage & show the result in
+// your browser
+var totalMrks= 980;
+var mrksObt = prompt("Let's Calculate your Percentage based on the Marks Obtained", "Enter your Marks: ?/980");
+
+var percentage = mrksObt/totalMrks*100;
+document.write("<h3>QUESTION 8</h3>");
+document.write("<h3>MARK SHEET:</h3>"+
+"Total Marks: "+ totalMrks  + "<br>"+
+"Marks Obtained: "+ mrksObt  + "<br>"+
+"Percentage: "+ percentage + " %" 
+
+);
+
+// 9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a
+// script to convert the total currency to Pakistani Rupees.
+// Perform all calculations in a single expression.
+// (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
+// and 1 Saudi Riyal = 28 Pakistani Rupee)
+document.write("<h3>QUESTION 9</h3>");
+document.write("<h3>Currency Converter to PKR</h3>");
+var 
+
+
+
+
 
