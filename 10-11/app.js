@@ -17,5 +17,16 @@ if ( userGender === "Male"){
 if ( userGender === "Female"){
     alert("Good Morning Ma'am!!");
 };
-
+// 3. Write a program to take input color of road traffic signal
+// from the user & show the message according to this table:
+var signalColor = prompt("Choose your road traffic signal color", "Red, Yellow, Green");
+if ( signalColor === Red){
+    document.write("Red!! Must Stop🤚");
+}
+if ( signalColor === Yellow){
+    document.write("Ready to Move!!🚶‍♂️");
+}
+if ( signalColor === Green){
+    document.write("Move Now!!🏃‍♂️");
+}
 
