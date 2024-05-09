@@ -70,4 +70,10 @@ if (false) {
 if ("car" < "cat") {
   alert("car is smaller than cat");
 }
+// 6. Write a program to take input the marks obtained in three
+// subjects & total marks. Compute & show the resulting
+// percentage on your page. Take percentage & compute
+// grade as per following table:
+
+
 
