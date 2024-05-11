@@ -144,5 +144,9 @@ if (percentageFinal < 59) {
   );
 };
 // end 
+document.write("<h2>Guess Game</h2>")
+
+
+
 
 
