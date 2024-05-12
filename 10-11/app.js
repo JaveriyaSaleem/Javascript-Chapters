@@ -144,9 +144,27 @@ if (percentageFinal < 59) {
   );
 };
 // end 
-document.write("<h2>Guess Game</h2>")
+document.write("<h2>Guess Game </h2> <p>Enter you Number in Prompt!</p>")
+// 7. Guess game:
+// Store a secret number (ranging from 1 to 10) in a variable.
+// Prompt user to guess the secret number.
+// a. If user guesses the same number, show “Bingo! Correct
+// answer”.
+// b. If the guessed number +1 is the secret number, show
+// “Close enough to the correct answer”.
+var secNum = 5;
+var userPrompt = parseInt(prompt ("guess the number", "ranging from 1 to 10"));
+if (userPrompt == secNum){
+  alert("Bingo! Correct answer");
+}
+if (username < 6) {
+alert("sorry you guessed the wrong number:(");
+}
+  
 
-
+if (username = 4){
+  alert("close enough to correct Answer");
+}
 
 
 
