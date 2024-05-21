@@ -48,10 +48,78 @@
 
 // 4. Write a program that takes a character (i.e. string of
 // length 1) and returns true if it is a vowel, false otherwise
-var vowelConfirmation = prompt("Write letter to check whether it's vowel or not");
-if (vowelConfirmation == "a" || vowelConfirmation == "e" || vowelConfirmation == "i" || vowelConfirmation == "o" || vowelConfirmation == "u"){
-    alert("it's a vowel!")
-}
-else{
-    alert("It's not vowel sorry!")
-}
+// var vowelConfirmation = prompt("Write letter to check whether it's vowel or not");
+// if (vowelConfirmation == "a" || vowelConfirmation == "e" || vowelConfirmation == "i" || vowelConfirmation == "o" || vowelConfirmation == "u"){
+//     alert("it's a vowel!")
+// }
+// else{
+//     alert("It's not vowel sorry!")
+// }
+// 5. Write a program that
+// a. Store correct password in a JS variable.
+// b. Asks user to enter his/her password
+// c. Validate the two passwords:
+// i. Check if user has entered password. If not, then
+// give message “ Please enter your password”
+// ii. Check if both passwords are same. If they are
+// same, show message “Correct! The password you
+// entered matches the original password”. Show
+// “Incorrect password” otherwise.
+// var myPassword = "coding2024";
+// var userEnteredPass = prompt("Enter your password")
+// if (userEnteredPass == myPassword){
+//     alert("Logged in successfully!!")
+// }
+// else if (userEnteredPass == ""){
+//     alert("Please enter your password to login the site"); 
+//     var userEnteredPass = prompt("Enter your password");
+//     if (userEnteredPass == myPassword){
+//         alert("Logged in successfully!!")
+//     }
+//     else if (userEnteredPass != myPassword){
+//         alert("Please enter the correct password")
+//     }
+    
+
+// }
+// else if (userEnteredPass != myPassword){
+//     alert("Please enter the correct password")
+// }
+// question is can we keep showing the loop if they won't enter the password?
+// yes by using loop function while 
+// 6. This if/else statement does not work. Try to fix it:
+// var greeting;
+// var hour = +prompt("enter number");
+// if (hour <= 18) {
+// greeting = "Good day";
+// alert(greeting)
+// }
+// else{
+// greeting = "Good evening";
+// alert(greeting);
+// }
+// 7. Write a program that takes time as input from user in 24
+// hours clock format like: 1900 = 7pm. Implement the
+// following case using if, else & else if statements
+// ============TIME IN 0000 24H FORMAT =====================
+// var time = +prompt("Enter the time in 24-hour format (e.g., 0000 for 12 AM):");
+
+
+// if (time >= 0 && time < 1200) {
+//     alert("Good morning!");
+// } else if (time >= 1200 && time < 1700) {
+//     alert("Good afternoon!");
+// } else if (time >= 1700 && time < 2100) {
+//     alert("Good evening!");
+// } else if (time >= 2100 && time <= 2359) {
+//     alert("Good night!");
+// } 
+// else {
+//     alert("Invalid time entered. Please enter a time between 0000 and 2359."+ "<br>" +
+//         "exmaple: 0000 is 12 am"
+//     );
+// }
+// ======================== END OF CHAP =============================
+
+
+
