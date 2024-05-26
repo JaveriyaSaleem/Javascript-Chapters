@@ -43,3 +43,11 @@ var colorName = [];
 // a. Ask the user what color he/she wants to add to the
 // beginning & add that color to the beginning of the array.
 // Display the updated array in your browser.
+colorName = [prompt("Enter any color here!")];
+document.write(colorName);
+// b. Ask the user what color he/she wants to add to the end
+// & add that color to the end of the array. Display the
+// updated array in your browser.
+colorName.push = [prompt("Enter Another Color")];
+colorName.push = [prompt("One more Color")];
+document.write(colorName);
