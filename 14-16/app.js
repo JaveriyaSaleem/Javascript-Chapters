@@ -43,21 +43,45 @@ var colorName = [];
 // a. Ask the user what color he/she wants to add to the
 // beginning & add that color to the beginning of the array.
 // Display the updated array in your browser.
-colorName.unshift(prompt("Type any color name here"));
-document.write("Here's is the color name you type: "+"<b>"+colorName +"</b>" +"<br>");
+colorName.unshift(prompt("Type any color name here to add at the beginning"));
+document.write("Here's is the color name you type for the begining: "+"<b>"+colorName +"</b>" +"<br>");
 // b. Ask the user what color he/she wants to add to the end
 // & add that color to the end of the array. Display the
 // updated array in your browser.
-colorName.push(prompt("We want one more"),prompt("Aik or color chahiye"));
+colorName.push(prompt("We want one more to add at the end"),prompt("Aik or color chahiye"));
 // colorName.pop(); //it's additional i was checking up
-document.write("Here are updated color Names: "+"<b>"+colorName+"</b>"+"<br>");
+document.write("Here are updated color Names after adding at the end: "+"<b>"+colorName+"</b>"+"<br>");
 // c. Add two more color to the beginning of the array.
 // Display the updated array in your browser.
 colorName.unshift(prompt("More color"),prompt("One More"),);
-document.write("Here are more : "+"<b>"+colorName +"</b>"+ "<br>");
+document.write("More at the begining : "+"<b>"+colorName +"</b>"+ "<br>");
 // d. Delete the first color in the array. Display the updated
 // array in your browser.
 colorName.shift();
 document.write("After Deleting the first one : "+"<b>"+colorName +"</b>"+ "<br>");
+// e. Delete the last color in the array. Display the updated
+// array in your browser.
+colorName.pop();
+document.write("After Deleting the last one : "+"<b>"+colorName +"</b>"+ "<br>");
+// f. Ask the user at which index he/she wants to add a color
+// & color name. Then add the color to desired
+// position/index. . Display the updated array in your
+// browser.
+var index = prompt("Add color at any position");
+var color = prompt("which color?")
+colorName.splice(index,0,color);
+document.write("Outcome after adding color at the specific position you want: "+ colorName + "<br>");
+// g. Ask the user at which index he/she wants to delete
+// color(s) & how many colors he/she wants to delete. Then
+// remove the same number of color(s) from user-defined
+// position/index. . Display the updated array in your
+// browser.
+var index = prompt("delete from which specific position");
+var deleted_number = prompt("write how many you want to delete the colors" );
+
+colorName.splice(index,deleted_number);
+document.write("Outcome after deleting colors at the specific position you want: "+ colorName + "<br>");
+// end of question 9 
+
 
 
