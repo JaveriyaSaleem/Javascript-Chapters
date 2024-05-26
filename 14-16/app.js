@@ -43,11 +43,21 @@ var colorName = [];
 // a. Ask the user what color he/she wants to add to the
 // beginning & add that color to the beginning of the array.
 // Display the updated array in your browser.
-colorName = [prompt("Enter any color here!")];
-document.write(colorName);
+colorName.unshift(prompt("Type any color name here"));
+document.write("Here's is the color name you type: "+"<b>"+colorName +"</b>" +"<br>");
 // b. Ask the user what color he/she wants to add to the end
 // & add that color to the end of the array. Display the
 // updated array in your browser.
-colorName.push = [prompt("Enter Another Color")];
-colorName.push = [prompt("One more Color")];
-document.write(colorName);
+colorName.push(prompt("We want one more"),prompt("Aik or color chahiye"));
+// colorName.pop(); //it's additional i was checking up
+document.write("Here are updated color Names: "+"<b>"+colorName+"</b>"+"<br>");
+// c. Add two more color to the beginning of the array.
+// Display the updated array in your browser.
+colorName.unshift(prompt("More color"),prompt("One More"),);
+document.write("Here are more : "+"<b>"+colorName +"</b>"+ "<br>");
+// d. Delete the first color in the array. Display the updated
+// array in your browser.
+colorName.shift();
+document.write("After Deleting the first one : "+"<b>"+colorName +"</b>"+ "<br>");
+
+
