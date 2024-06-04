@@ -1,7 +1,9 @@
 // ======================Loops========================
+// =======================Question 1============================
 // 1. Declare and initialize an empty multidimensional array.
 // (Array of arrays)
 // var aMultidimensional = [[]];
+// =======================Question 2============================
 // 2. Declare and initialize a multidimensional array
 // representing the following matrix:
 // aMultidimensional = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
@@ -18,19 +20,19 @@
 // for (var i=0; i<aMultidimensional.length;i++){
 //     document.write(aMultidimensional[i].join(" ")+"<br>")
 // }
+
 // it's 3d 
-var aMultidimensional = [[[0,1,2,3]],[[1,0,1,2]],[[2,1,0,1]]];
-for (var i = 0;i<aMultidimensional.length;i++){
-    document.write(aMultidimensional[i][0].join(" ")+"<br>")
-}
+// var aMultidimensional = [[[0,1,2,3]],[[1,0,1,2]],[[2,1,0,1]]];
+// for (var i = 0;i<aMultidimensional.length;i++){
+//     document.write(aMultidimensional[i][0].join(" ")+"<br>")
+// }
 
-
-
-
+ // =======================Question 3============================
 // 3. Write a program to print numeric counting from 1 to 10.
-      
-
-
+// for (var i = 1; i<=10;i++){
+//     document.write(i+"<br>")
+// }    
+ // =======================Question 4============================
 // 4. Write a program to print multiplication table of any
 // number using for loop. Table number & length should be
 // taken as an input from user.
@@ -42,6 +44,15 @@ for (var i = 0;i<aMultidimensional.length;i++){
 //     document.write(
 //         table+ " x " + i + " = " + (table*i) +"<br>")
 // };
+// =======================Question 5============================
+// 5. Write a program to print items of the following array
+// using for loop:
+// var fruits = ["apple", "banana", "mango", "orange","strawberry"];
+// for (var i=0; i<fruits.length;i++){
+//     document.write(fruits[i]+"<br>")
+// }
+
+// =======================Question 6============================
 // 6. Generate the following series in your browser. See
 // example output.
 // a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
@@ -89,6 +100,8 @@ for (var i = 0;i<aMultidimensional.length;i++){
 //          i*2 +"k," 
 //     )
 // };
+// =======================Question 7============================
+
 
 
 
