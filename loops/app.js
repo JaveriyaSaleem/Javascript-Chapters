@@ -4,8 +4,31 @@
 // var aMultidimensional = [[]];
 // 2. Declare and initialize a multidimensional array
 // representing the following matrix:
-aMultidimensional = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
-document.write(aMultidimensional+"<br>");
+// aMultidimensional = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+// nested loop method :
+
+// for (var i = 0; i<aMultidimensional.length;i++){
+    
+//     for(var j=0; j<aMultidimensional[i].length;j++){
+//         document.write(aMultidimensional[i][j])
+//     }
+//     document.write("<br>");
+// }
+// with converting the 2nd means 2d array into string method:
+// for (var i=0; i<aMultidimensional.length;i++){
+//     document.write(aMultidimensional[i].join(" ")+"<br>")
+// }
+// it's 3d 
+var aMultidimensional = [[[0,1,2,3]],[[1,0,1,2]],[[2,1,0,1]]];
+for (var i = 0;i<aMultidimensional.length;i++){
+    document.write(aMultidimensional[i][0].join(" ")+"<br>")
+}
+
+
+
+
+// 3. Write a program to print numeric counting from 1 to 10.
+      
 
 
 // 4. Write a program to print multiplication table of any
