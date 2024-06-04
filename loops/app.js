@@ -101,7 +101,41 @@
 //     )
 // };
 // =======================Question 7============================
+// 7. You have an array
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"]
+// Write a program to enable “search by user input” in an
+// array.
+// After searching, prompt the user whether the given item is
+// found in the list or not. Example:
+// var userInputForChecking = prompt("What do you want to order Maam/Sir");
+// var myWrongVar = false;
+// var user = userInputForChecking.toLowerCase();
+// for(var i = 0; i<A.length;i++){
+// if (user==A[i]){
+//     alert(userInputForChecking +" is available at index "+ i+" in our bakery!")
+//     myWrongVar=true; //it means the condition is true
+    
+// }
+           
+// }
+// if(myWrongVar==false){
+//         alert("sorry the item you entered isn't available in our bakery")
+        
+//     }
+// =======================Question 8============================
+// 8. Write a program to identify the largest number in the
+// given array.
+// A = [24, 53, 78, 91, 12].
 
+
+
+
+
+
+
+
+
+// if (userInputForChecking == )
 
 
 
