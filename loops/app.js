@@ -126,6 +126,13 @@
 // 8. Write a program to identify the largest number in the
 // given array.
 // A = [24, 53, 78, 91, 12].
+// for (var i = 10; i>=1; i--){
+// for(var j=10; j>=i ; j-- ){
+//     document.write("*")
+// }
+// document.write("<br>")
+
+// }
 
 
 
