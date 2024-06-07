@@ -18,3 +18,15 @@ for (var i = 10; i>=0; i--){
     document.write("<br>");
 }
 
+//  pyramid
+
+// for (var i = 1; i <= 11; i++) {
+//     for (var j = 11; j > i; j--) {
+//       document.write(" &nbsp ");
+//     }
+//     for (var k = 1; k <= 2 * i - 1; k++) {
+//       document.write("*");
+//     }
+//     document.write("<br>");
+//   }
+ 
