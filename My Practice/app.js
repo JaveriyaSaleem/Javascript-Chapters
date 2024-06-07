@@ -1,8 +1,12 @@
+// =======Loop of stars Star pattern ======
+// increment
+for (var i = 0; i<=10; i++){
+    for(var j=0; j<=i; j++){
+        document.write("*");
+    }
 
-for (var i = 10; i>=1; i--){
-for(var j=10; j>=i ; j-- ){
-    document.write("*")
-}
-document.write("<br>")
+document.write("<br>");
 
 }
+// decrement 
+
