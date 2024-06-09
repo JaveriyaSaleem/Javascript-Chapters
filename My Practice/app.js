@@ -30,13 +30,58 @@ for (var i = 10; i>=0; i--){
 //     document.write("<br>");
 //   }
 // counting 
-for (var i = 1; i <= 100; i= i+10){
-for (var j = i; j < i+10; j++){
+// for (var i = 1; i <= 100; i= i+10){
+// for (var j = i; j < i+10; j++){
     
-     document.write(j+" ");
-      }
-    document.write("<br>");
+//      document.write(j+" ");
+//       }
+//     document.write("<br>");
+    
+//     }
+    // counting 1 to 5 5 row 
+    // for (var i=1; i<6;i++){
+    //     for(var j=1;j<=i;j++){
+    //         document.write(j);
+    //         }
+    //     document.write("<br>");
+    //     }
 
-}
+        // // reverse 
+        // for (var a=5; a<=5;a--){
+        //     for(var b=5; b>=a;b++){
+        //         document.write(b);
+        //         }
+        //     document.write("<br>");
+        //         }
+                // another 
+        // for (var i=1; i<=5; i++){
+        //     for(var j=1; j<=i; j++){
+        //         document.write(j);
+        //         }
+        //     document.write("<br>");
+        // }
+        // reverse 
+        //  for (var i=5; i>=1; i--){
+        //     for(var j=5; j>=1; j--){ 
+        //         document.write(j);
+        //         }
+        //     document.write("<br>");
+        // }
+        // when we print this comes     we want 
+        // 54321                      // 54321
+        // 54321                      // 4321
+        // 54321                      // 321
+        // 54321                      // 21
+        // 54321                      // 1
+     
+                // for (var i=5; i>=1; i--){
+                //     for(var j=i; j>=1; j--){ 
+                //         document.write(j);
+                //         }
+                //     document.write("<br>");
+                // }
+                
+
+        
 
  
