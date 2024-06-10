@@ -1,22 +1,22 @@
 // =======Loop of stars Star pattern ======
 // increment
-for (var i = 0; i<=10; i++){
-    for(var j=0; j<=i; j++){
-        document.write("*");
-    }
+// for (var i = 0; i<=10; i++){
+//     for(var j=0; j<=i; j++){
+//         document.write("*");
+//     }
 
-document.write("<br>");
+// document.write("<br>");
 
-}
-document.write("<br>");
+// }
+// document.write("<br>");
 // decrement 
-for (var i = 10; i>=0; i--){
-    for (var j=i; j>=0; j--){
-        document.write("*");
+// for (var i = 10; i>=0; i--){
+//     for (var j=i; j>=0; j--){
+//         document.write("*");
 
-    }
-    document.write("<br>");
-}
+//     }
+//     document.write("<br>");
+// }
 
 //  pyramid
 
@@ -80,6 +80,32 @@ for (var i = 10; i>=0; i--){
                 //         }
                 //     document.write("<br>");
                 // }
+for (var i=0;i<10;i++){
+    for (var j=0; j<=i;j++){
+        document.write("*");
+        }
+    document.write("<br>");
+    }
+document.write("<br>");
+for (var i=10;i>=1;i--){
+    for (var j=1; j<=i;j++){
+        document.write("*");
+        }
+    document.write("<br>");
+    }
+
+    // for (var i=1; i<=5;i++){
+    //     for (var k=1;k<=9-i;k++){
+    //         document.write("&nbsp;");
+    //     }
+    //     for(var j=1; j<=i; j= j++*2+1){
+    //         document.write("*");
+    //         }
+    //     document.write("<br>");
+    // }
+var arrayOne = [[1,2,3],[4,5,6],[7,8,9]]; //three array 
+var arrayTwo = [[9,2,1],[2,2,1],[2,2,3]];
+
                 
 
         
