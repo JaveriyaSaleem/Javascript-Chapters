@@ -103,9 +103,20 @@ for (var i=10;i>=1;i--){
     //         }
     //     document.write("<br>");
     // }
-var arrayOne = [[1,2,3],[4,5,6],[7,8,9]]; //three array 
-var arrayTwo = [[9,2,1],[2,2,1],[2,2,3]];
+// var arrayOne = [[1,2,3],[4,5,6],[7,8,9]]; //three array [0[0,1,2],1[0,1,2],2[0,1,2]]
+// var arrayTwo = [[9,2,1],[2,2,1],[2,2,3]];
+// var finalArray= [];
+// for (var i=0; i<arrayOne.length;i++){
+//     for (var j=0; j<arrayOne[i].length;j++){
+//         finalArray= arrayOne[i][j]+arrayTwo[i][j];
+//     document.write(finalArray);
+//     }
+// document.write("<br>");
 
+// }
+// var myArray = ["Javeriya","Umer","Cat","Kitten"];
+// var newOne = myArray.slice(1,3);
+// console.log(newOne);
                 
 
         
