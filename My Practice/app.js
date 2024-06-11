@@ -114,9 +114,32 @@ for (var i=10;i>=1;i--){
 // document.write("<br>");
 
 // }
-// var myArray = ["Javeriya","Umer","Cat","Kitten"];
-// var newOne = myArray.slice(1,3);
-// console.log(newOne);
+var myArray = ["Javeriya","Umer","Cat","Kitten"];
+var newOne = myArray.slice(1,3);
+console.log("After Slice "+newOne);
+myArray.splice(0,2,"Lion","Cub");
+console.log("After Addition by splice "+myArray);
+// Palidrome program 
+// var userInput = prompt("Enter any word we will check whether it's palidrome or not"); //"Wow";
+// var forLowerCase = userInput.toLowerCase();
+// console.log(forLowerCase); //wow
+// var converting2Array = forLowerCase.split("");
+// console.log(converting2Array); //array
+// var reverseArray = converting2Array.reverse();
+// console.log(reverseArray);
+// var reverse2String = reverseArray.join("");
+// console.log(reverse2String);
+// if(forLowerCase == reverse2String){
+//     alert("Yeah hat's palindrome!");
+// }
+// else{
+//     alert("It's not palindrome :(");
+// }
+
+
+
+
+
                 
 
         
