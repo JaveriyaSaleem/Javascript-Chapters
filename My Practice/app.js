@@ -80,19 +80,19 @@
                 //         }
                 //     document.write("<br>");
                 // }
-for (var i=0;i<10;i++){
-    for (var j=0; j<=i;j++){
-        document.write("*");
-        }
-    document.write("<br>");
-    }
-document.write("<br>");
-for (var i=10;i>=1;i--){
-    for (var j=1; j<=i;j++){
-        document.write("*");
-        }
-    document.write("<br>");
-    }
+// for (var i=0;i<10;i++){
+    // for (var j=0; j<=i;j++){
+    //     document.write("*");
+    //     }
+    // document.write("<br>");
+    // }
+// document.write("<br>");
+// for (var i=10;i>=1;i--){
+//     for (var j=1; j<=i;j++){
+//         document.write("*");
+//         }
+//     document.write("<br>");
+//     }
 
     // for (var i=1; i<=5;i++){
     //     for (var k=1;k<=9-i;k++){
@@ -114,11 +114,11 @@ for (var i=10;i>=1;i--){
 // document.write("<br>");
 
 // }
-var myArray = ["Javeriya","Umer","Cat","Kitten"];
-var newOne = myArray.slice(1,3);
-console.log("After Slice "+newOne);
-myArray.splice(0,2,"Lion","Cub");
-console.log("After Addition by splice "+myArray);
+// var myArray = ["Javeriya","Umer","Cat","Kitten"];
+// var newOne = myArray.slice(1,3);
+// console.log("After Slice "+newOne);
+// myArray.splice(0,2,"Lion","Cub");
+// console.log("After Addition by splice "+myArray);
 // Palidrome program 
 // var userInput = prompt("Enter any word we will check whether it's palidrome or not"); //"Wow";
 // var forLowerCase = userInput.toLowerCase();
