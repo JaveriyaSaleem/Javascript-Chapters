@@ -81,11 +81,19 @@
                 //     document.write("<br>");
                 // }
 // for (var i=0;i<10;i++){
+
 //     for (var j=0; j<=i;j++){
 //         document.write("*");
 //         }
 //     document.write("<br>");
 //     }
+
+    // for (var j=0; j<=i;j++){
+    //     document.write("*");
+    //     }
+    // document.write("<br>");
+    // }
+
 // document.write("<br>");
 // for (var i=10;i>=1;i--){
 //     for (var j=1; j<=i;j++){
@@ -113,12 +121,18 @@
 //     }
 // document.write("<br>");
 
+
 // // }
 // var myArray = ["Javeriya","Jiya","Cat","Kitten"];
+
+// }
+// var myArray = ["Javeriya","Umer","Cat","Kitten"];
+
 // var newOne = myArray.slice(1,3);
 // console.log("After Slice "+newOne);
 // myArray.splice(0,2,"Lion","Cub");
 // console.log("After Addition by splice "+myArray);
+
 // myArray = myArray[1];
 // console.log(myArray);
 // myArray.push("Family");
