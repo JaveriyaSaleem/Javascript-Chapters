@@ -204,22 +204,23 @@
 
 // ==== example para: "this is a sample paragraph to demonstrate the conversion to title case. it includes various words and sentences to test the functionality of the script. feel free to use this as an example."=====
 
-var userInput = prompt("enter your data here we will write it in title case"); 
-//indexing to access every letter we can do this by array
-var convertToArray = userInput.split(" ");
-// console.log(convertToArray); //converted to array
-var array2add = [];
-for (var i=0; i<convertToArray.length; i++){
-   // we want to access nested array means [0["j","a"]]  
-   var formating2TitleCase = convertToArray[i][0].toUpperCase()+convertToArray[i].slice(1).toLowerCase();
-   console.log(formating2TitleCase);
-  array2add.push(formating2TitleCase);
-}
+// var userInput = prompt("enter your data here we will write it in title case"); 
+//==== indexing to access every letter we can do this by array
+// var convertToArray = userInput.split(" ");
+// console.log(convertToArray); //==converted to array
+// var array2add = [];
+// for (var i=0; i<convertToArray.length; i++){
+// === we want to access nested array means [0["j","a"]]  
+//    var formating2TitleCase = convertToArray[i][0].toUpperCase()+convertToArray[i].slice(1).toLowerCase();
+//    console.log(formating2TitleCase);
+//   array2add.push(formating2TitleCase);
+// }
+// var convert2String = array2add.join(" ");
+// document.write(convert2String);
 
-var convert2String = array2add.join(" ");
-document.write(convert2String);
+// ==end 
 
-// end 
+
 
 
 
