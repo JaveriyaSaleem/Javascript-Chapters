@@ -169,14 +169,61 @@
 //     }
 // }
 // counting 
-for (var i=1; i<=100;i= i+10){
-  // 
-   for(var j = i;j<=i+9;j++){
-    document.write(j+" ");
+// for (var i=1; i<=100;i= i+10){
+//   // 
+//    for(var j = i;j<=i+9;j++){
+//     document.write(j+" ");
    
-   }
-   document.write("<br>");
+//    }
+//    document.write("<br>");
+// }
+// chap 21
+// ==========FIRST LETTER TURNING INTO UPPER CASE ===============
+// how to convert first letter of every word capital 
+// var userInput = prompt("Enter Your Full Name here"); //javeriya saleem
+// console.log(userInput);
+// var addingAll = [];
+// // user must be putting space in between so let's convert it to array 
+// var convert2Array = userInput.split(" "); 
+// console.log(convert2Array); //convert to array so we can check the index number
+// var newOne =[]; //will put output here
+// for (var i=0; i<convert2Array.length; i++){
+//    console.log(convert2Array[i][0].toUpperCase);
+//    var capitalizedWord = convert2Array[i][0].toUpperCase() + convert2Array[i].slice(1);
+//    console.log(capitalizedWord);
+//    addingAll.push(capitalizedWord);
+//    console.log(addingAll);
+   
+
+// }
+// var final = addingAll.join(" ");
+// document.write("Your Name "+ final);
+// ========================done!!!!!!!!!========================
+
+// for making the first letter capital and rest small 
+
+// ==== example para: "this is a sample paragraph to demonstrate the conversion to title case. it includes various words and sentences to test the functionality of the script. feel free to use this as an example."=====
+
+var userInput = prompt("enter your data here we will write it in title case"); 
+//indexing to access every letter we can do this by array
+var convertToArray = userInput.split(" ");
+// console.log(convertToArray); //converted to array
+var array2add = [];
+for (var i=0; i<convertToArray.length; i++){
+   // we want to access nested array means [0["j","a"]]  
+   var formating2TitleCase = convertToArray[i][0].toUpperCase()+convertToArray[i].slice(1).toLowerCase();
+   console.log(formating2TitleCase);
+  array2add.push(formating2TitleCase);
 }
+
+var convert2String = array2add.join(" ");
+document.write(convert2String);
+
+// end 
+
+
+
+
 
                 
 
