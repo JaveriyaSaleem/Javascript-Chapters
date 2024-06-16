@@ -220,7 +220,9 @@
 
 // ==end 
 
-
+var myName = "javeriya muhammad saleem";
+var cap = myName[0].toUpperCase()+myName.slice(1);
+console.log(cap);
 
 
 
