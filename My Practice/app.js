@@ -223,6 +223,23 @@
 // var myName = "javeriya muhammad saleem";
 // var cap = myName[0].toUpperCase()+myName.slice(1);
 // console.log(cap);
+var str =  "SMIT SAYLANI SMIT SMIT Saylani SMIT " //storing index in any other var
+var find = "SMIT";
+var replaceWord = "Sayloni";
+var count = 0;
+var oneMore = ""
+for (var i =0; i<str.length;i++){
+  oneMore= str.slice(i,i+find.length);
+  if(oneMore === find){
+    count++
+    if(count===3){
+        str=str.slice(0,i)+replaceWord+str.slice(i+find.length)
+        console.log(str)
+    }
+
+  }
+}
+// console.log(str.slice(i,i+4))
 
 
 
