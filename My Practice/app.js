@@ -223,23 +223,50 @@
 // var myName = "javeriya muhammad saleem";
 // var cap = myName[0].toUpperCase()+myName.slice(1);
 // console.log(cap);
-var str =  "SMIT SAYLANI SMIT SMIT Saylani SMIT " //storing index in any other var
-var find = "SMIT";
-var replaceWord = "Sayloni";
-var count = 0;
-var oneMore = ""
-for (var i =0; i<str.length;i++){
-  oneMore= str.slice(i,i+find.length);
-  if(oneMore === find){
-    count++
-    if(count===3){
-        str=str.slice(0,i)+replaceWord+str.slice(i+find.length)
-        console.log(str)
-    }
+// var str =  "SMIT SAYLANI SMIT SMIT Saylani SMIT " //storing index in any other var
+// var find = "SMIT";
+// var replaceWord = "Sayloni";
+// var count = 0;
+// var oneMore = ""
+// for (var i =0; i<str.length;i++){
+//   oneMore= str.slice(i,i+find.length);
+//   if(oneMore === find){
+//     count++
+//     if(count===3){
+//         str=str.slice(0,i)+replaceWord+str.slice(i+find.length)
+//         console.log(str)
+//     }
 
+//   }
+// }
+// console.log(str.slice(i,i+4))
+
+// making head and tail game
+var player1Name = prompt("First Player Name") ;
+var player2Name = prompt("Second Player Name") ;
+var player1Chosen = prompt("Hey "+player1Name+ " chose btw head or tail");
+// head = 1 tail = 0
+var numberGenerator = Math.floor(Math.random()*2);
+console.log(numberGenerator);
+if (player1Chosen === "head"){
+  if(numberGenerator === 1){
+    alert(player1Name +" won!!")
+  }
+  else{
+    alert(player2Name+" won!!")
   }
 }
-// console.log(str.slice(i,i+4))
+else if (player1Chosen === "tail"){
+  if(numberGenerator === 0){
+    alert(player1Name +" won!!")
+  }
+  else {
+    alert(player2Name + " won!!");
+  }
+}
+else{
+  alert("Invalid Choice choose again!!")
+}
 
 
 
