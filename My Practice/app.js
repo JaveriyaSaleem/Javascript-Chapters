@@ -241,32 +241,32 @@
 // }
 // console.log(str.slice(i,i+4))
 
-// making head and tail game
-var player1Name = prompt("First Player Name") ;
-var player2Name = prompt("Second Player Name") ;
-var player1Chosen = prompt("Hey "+player1Name+ " chose btw head or tail");
+// // making head and tail game
+// var player1Name = prompt("First Player Name") ;
+// var player2Name = prompt("Second Player Name") ;
+// var player1Chosen = prompt("Hey "+player1Name+ " chose btw head or tail");
 // head = 1 tail = 0
-var numberGenerator = Math.floor(Math.random()*2);
-console.log(numberGenerator);
-if (player1Chosen === "head"){
-  if(numberGenerator === 1){
-    alert(player1Name +" won!!")
-  }
-  else{
-    alert(player2Name+" won!!")
-  }
-}
-else if (player1Chosen === "tail"){
-  if(numberGenerator === 0){
-    alert(player1Name +" won!!")
-  }
-  else {
-    alert(player2Name + " won!!");
-  }
-}
-else{
-  alert("Invalid Choice choose again!!")
-}
+// var numberGenerator = Math.floor(Math.random()*2);
+// console.log(numberGenerator);
+// if (player1Chosen === "head"){
+//   if(numberGenerator === 1){
+//     alert(player1Name +" won!!")
+//   }
+//   else{
+//     alert(player2Name+" won!!")
+//   }
+// }
+// else if (player1Chosen === "tail"){
+//   if(numberGenerator === 0){
+//     alert(player1Name +" won!!")
+//   }
+//   else {
+//     alert(player2Name + " won!!");
+//   }
+// }
+// else{
+//   alert("Invalid Choice choose again!!")
+// }
 
 
 
