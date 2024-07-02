@@ -13,4 +13,7 @@
 // document.write("My Favourite Mobile Phone Model is "+userFavPhone+"<br>"+
 //     "Lenght of string is: "+userFavPhone.length
 // )
-
+// 3. Write a program to find the index of letter “n” in the word
+// “Pakistani” and display the result in your browser .
+var nationality = "Pakistani";
+console.log
