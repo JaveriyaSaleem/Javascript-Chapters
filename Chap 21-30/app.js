@@ -32,10 +32,62 @@
 // )
 // 6. Repeat Q1 using string concat() method.
 // .concat will be use before the thing that has to concate
-var firstName = prompt("Enter your first name here");
-var secondName = prompt("Enter your second name here");
-var fullName = firstName.concat(" ").concat(secondName);
-alert("Hi "+fullName+ ", hope your day is going well💗");
+// var firstName = prompt("Enter your first name here");
+// var secondName = prompt("Enter your second name here");
+// var fullName = firstName.concat(" ").concat(secondName);
+// alert("Hi "+fullName+ ", hope your day is going well💗");
+// 7. Write a program to replace the “Hyder” to “Islam” in the
+// word “Hyderabad” and display the result in your browser.
+// var cityName = "Hyderabad";
+// document.write(
+//     "City: "+ cityName +"<br>"+
+//     "After Replacement: "+ cityName.replace("Hyderabad","Islamabad")
+// )
+// 8. Write a program to replace all occurrences of “and” in the
+// string with “&” and display the result in your browser.
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// document.write("Program before: "+ message + "<br>"+
+//     "After replacing and to &: "+ message.replaceAll("and","&")
+// )
+// 9. Write a program that converts a string “472” to a number
+// 472. Display the values & types in your browser.
+// var valueinStr = "472";
+// var converted2Str = +valueinStr
+// document.write("Value "+valueinStr+ "<br>"+
+//     "Type "+ typeof(valueinStr)+ "<br>"+
+//     "Value "+ converted2Str+"<br>"+
+//     "Type "+typeof(converted2Str)
+
+//  )
+// 10. Write a program that takes user input. Convert and
+// show the input in capital letters.
+// var userInput = prompt("Enter your word that need to get capatilized");
+
+// document.write("User Input: "+userInput+"<br>"+
+//     "Upper Case: "+userInput.toUpperCase()
+// )
+// 11. Write a program that takes user input. Convert and
+// show the input in title case.
+// var userInput = prompt("Enter anything to turn into title case");
+// document.write("  ")
+// 12. Write a program that converts the variable num to
+// string.
+// var num = 35.36 ;
+// var toStringConvert = num.toString()
+// var removeDot = toStringConvert.replace(".","")
+// // Remove the dot to display “3536” display in your browser.
+// document.write(
+//     "Value: "+num+"<br>"+
+//     "Type: "+ typeof(num) + "<br>"+
+//     "Value after converting to string and removing dot: "+ removeDot+ "<br>"+
+//     "Type: "+ typeof(removeDot)
+// )
+// done!
+
+
+
+
+
 
 
 
