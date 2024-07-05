@@ -83,6 +83,65 @@
 //     "Type: "+ typeof(removeDot)
 // )
 // done!
+// 13. Write a program to take user input and store username
+// in a variable. If the username contains any special symbol
+// among [@ . , !], prompt the user to enter a valid username.
+// For character codes of [@ .
+// Note:
+// ASCII code of ! is 33
+// ASCII code of , is 44
+// ASCII code of . is 46
+// ASCII code of @ is 64
+// SPECIAL CHARACTERS DETECTION IN USERNAME 
+// var userName = prompt("Enter your username")
+// var flagF = false;
+// for (var i=0; i<userName.length; i++){
+//     console.log(userName[i])
+//     if(userName[i]=="!" || userName[i]==="@" || userName[i]=="#" || userName[i]=="$" || userName[i]=="%" || userName[i]=="^" || userName[i]=="&" || userName[i]=="*"){
+//         alert("Incorrect Username special characters aren't allowed!")
+//         flagF = true;
+//         break;
+    
+//     }   
+// }
+// if (flagF=== false){
+//     alert("your username is "+userName)
+// }
+// ======== another way =======
+// var userInput=prompt('Enter your name: ');
+// var charCode;
+// for(var i=0;i<userInput.length;i++){
+//     charCode=userInput.charCodeAt(i);
+//      if(charCode===33||charCode===44||charCode===46||charCode===64){
+//         alert("Please enter a valid username, special character aren't allowed")
+//      }
+
+// }
+// 14. You have an array
+// Write a program to enable “search by user input” in an
+// array. After searching, prompt the user whether the given
+// item is found in the list or not.
+// Note: Perform case insensitive search. Whether the user
+// enters cookie, Cookie, COOKIE or coOkIE, program
+// should inform about its availability. Example:
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var userInput = prompt("What do you wanna order?")
+// var capatilizedInput = userInput.toLowerCase();
+// console.log(capatilizedInput);
+// var checkingFlag = false;
+// for(var i = 0; i< A.length;i++){
+//     console.log(A[i])
+//     if (capatilizedInput=== A[i]){
+//         alert("Available for order at index "+i)
+//         checkingFlag=true;
+        
+//     }
+// }
+// if(checkingFlag===false){
+//     alert("Item not available in our bakery")
+// }
+
+
 
 
 
