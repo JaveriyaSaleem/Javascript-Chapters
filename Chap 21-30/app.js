@@ -140,6 +140,30 @@
 // if(checkingFlag===false){
 //     alert("Item not available in our bakery")
 // }
+// 15. Write a program to take password as an input from
+// user. The password must qualify these requirements:
+// a. It should contain alphabets and numbers
+// b. It should not start with a number
+// c. It must at least 6 characters long
+// If the password does not meet above requirements,
+// prompt the user to enter a valid password.
+// For character codes of a-z, A-Z & 0-9, refer to ASCII
+// table at the end of this document.
+// var userInput = prompt("Enter your password here:\na. It should contain alphabets and numbers \n"+
+//     "b. It should not start with a number \n"+
+//     "c. It must at least 6 characters long");
+var characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*~|\?/";
+var randomGenerate;
+var userInput = prompt("Enter the password length you want");
+var password = ""; 
+for(var i =0; i<userInput; i++){
+        randomGenerate= Math.floor(Math.random()*characters.length);
+        password += characters[randomGenerate];
+
+}
+alert(password);
+
+
 
 
 
