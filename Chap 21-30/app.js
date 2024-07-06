@@ -149,9 +149,37 @@
 // prompt the user to enter a valid password.
 // For character codes of a-z, A-Z & 0-9, refer to ASCII
 // table at the end of this document.
-// var userInput = prompt("Enter your password here:\na. It should contain alphabets and numbers \n"+
+
+// prompt("Enter your password here:\na. It should contain alphabets and numbers \n"+
 //     "b. It should not start with a number \n"+
 //     "c. It must at least 6 characters long");
+//     consider password abc123
+// var userInput = prompt("Enter your password:"); // Prompting user for input
+// var hasAlphabet = false;
+// var hasNumber = false;
+// var isValidLength = userInput.length >= 6;
+// var startsWithNumber = userInput.charCodeAt(0) >= 48 && userInput.charCodeAt(0) <= 57;
+
+// for (var i = 0; i < userInput.length; i++) {
+//     var charCode = userInput.charCodeAt(i);
+    
+//     if ((charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122)) {
+//         hasAlphabet = true;
+//     }
+    
+//     if (charCode >= 48 && charCode <= 57) {
+//         hasNumber = true;
+//     }
+// }
+
+// if (isValidLength && !startsWithNumber && hasAlphabet && hasNumber) {
+//     alert("Password saved successfully!!");
+// } else {
+//     console.log("Please fulfill all requirements!");
+// }
+
+
+
 
 
 
