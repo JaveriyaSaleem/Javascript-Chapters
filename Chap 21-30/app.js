@@ -177,6 +177,13 @@
 // } else {
 //     console.log("Please fulfill all requirements!");
 // }
+// 16. Write a program to convert the following string to an
+// array using string split method.
+
+// Display the elements of array in your browser.
+// var university = "University of Karachi";
+// var arrayConversion = university.split("")
+// console.log(arrayConversion);
 
 
 
