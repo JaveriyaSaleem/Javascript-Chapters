@@ -184,6 +184,31 @@
 // var university = "University of Karachi";
 // var arrayConversion = university.split("")
 // console.log(arrayConversion);
+// 17. Write a program to display the last character of a user
+// input.
+// var input1 = "Pakistan";
+// document.write(input1.charAt(input1.length-1))
+// 18. You have a string “The quick brown fox jumps over the
+// lazy dog”. Write a program to count number of
+// occurrences of word “the” in given string.
+// var textProvided = "The quick brown fox jumps over the lazy dog";
+// var changeCase = textProvided.toLowerCase();
+// var count = 0;
+// for (var i=0; i<changeCase.length;i++){
+// var cutted = changeCase.slice(i,i+3);
+// if(cutted === "the" ){
+//         console.log("Milgaya")
+//         count++
+
+// }
+
+// }
+// document.write("Text: "+textProvided+"<br>"+
+//         "There are "+count +" occurence of word “the” "
+// )
+// ============  till chap 21 -25 end  ===========
+// =================== FROM CHAP 26 TO 30 =====================
+
 
 
 
