@@ -152,16 +152,7 @@
 // var userInput = prompt("Enter your password here:\na. It should contain alphabets and numbers \n"+
 //     "b. It should not start with a number \n"+
 //     "c. It must at least 6 characters long");
-var characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*~|\?/";
-var randomGenerate;
-var userInput = prompt("Enter the password length you want");
-var password = ""; 
-for(var i =0; i<userInput; i++){
-        randomGenerate= Math.floor(Math.random()*characters.length);
-        password += characters[randomGenerate];
 
-}
-alert(password);
 
 
 

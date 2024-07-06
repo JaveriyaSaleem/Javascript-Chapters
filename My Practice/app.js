@@ -268,7 +268,17 @@
 //   alert("Invalid Choice choose again!!")
 // }
 
+// =================RANDOM PASSWORD GENERATE===============
+// var characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*~|\?/";
+// var randomGenerate;
+// var userInput = prompt("Enter the password length you want");
+// var password = ""; 
+// for(var i =0; i<userInput; i++){
+//         randomGenerate= Math.floor(Math.random()*characters.length);
+//         password += characters[randomGenerate];
 
+// }
+// alert(password);
 
 
 
