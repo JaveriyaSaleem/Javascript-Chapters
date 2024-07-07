@@ -215,6 +215,44 @@
 // b. round off value of the number
 // c. floor value of the number
 // d. ceil value of the number
+// var userInput = 3.658;
+// document.write("Number: "+ Number(userInput) + "<br>"+
+//     "Round off: "+ Math.round(userInput) + "<br>"+
+//     "Floor: "+ Math.floor(userInput) +"<br>"+
+//     "Ceil: "+Math.ceil(userInput)
+// )
+
+// 2. Write a program that takes a negative floating point
+// number from user & display the following in your browser.
+// a. number
+// b. round off value of the number
+// c. floor value of the number
+// d. ceil value of the number
+// var userInput = -2.673;
+// document.write("Number: "+ Number(userInput) + "<br>"+
+//     "Round off: "+ Math.round(userInput) + "<br>"+
+//     "Floor: "+ Math.floor(userInput) +"<br>"+
+//     "Ceil: "+Math.ceil(userInput)
+// )
+// 3. Write a program that displays the absolute value of a
+// number.
+// E.g. absolute value of -4 is 4 & absolute value of 5 is 5
+
+// var number = 15;
+// number = Number(number);
+// var absoluteValue = Math.abs(number);
+// alert("The absolute value of " + number + " is " + absoluteValue);
+// 4. Write a program that simulates a dice using random()
+// method of JS Math class. Display the value of dice in your
+// browser.:
+// var randomDice = Math.ceil(Math.random() * 6);
+// document.write("Dice Value 1: "+randomDice+"<br>")
+// 5. Write a program that simulates a coin toss using random()
+// method of JS Math class. Display the value of coin in your
+// browser
+var randomDice = Math.ceil(Math.random() * 2);
+
+
 
 
 
