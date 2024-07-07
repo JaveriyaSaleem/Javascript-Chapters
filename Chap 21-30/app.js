@@ -250,7 +250,44 @@
 // 5. Write a program that simulates a coin toss using random()
 // method of JS Math class. Display the value of coin in your
 // browser
-var randomDice = Math.ceil(Math.random() * 2);
+// var randomDice = Math.ceil(Math.random() * 2);
+// if (randomDice=== 1){
+//     document.write(randomDice+"<br>"+
+//         "random coin value: Heads"
+//     )
+// }
+// else if(randomDice===2){
+//     document.write(randomDice+"<br>"+
+//         "random coin value: tails"
+//     )
+// }
+// 6. Write a program that shows a random number between 1
+// and 100 in your browser.
+// document.write(
+//     "Random number between 1 and 100: "+ Math.ceil( Math.random() * 100)
+// )
+// 7. Write a program that asks the user about his weight. Parse
+// the user input and display his weight in your browser.
+// Possible user inputs can be:
+// a. 50
+// b. 50kgs
+// c. 50.2kgs
+// d. 50.2kilograms
+// var userInput = prompt("Enter your weight in kgs");
+// var weight = parseFloat(userInput);
+// document.write(weight)
+// 8. Write a program that stores a random secret number from
+// 1 to 10 in a variable. Ask the user to input a number
+// between 1 and 10. If the user input equals the secret
+// number, congratulate the user.
+// var randomNum = Math.ceil(Math.random()*10);
+// var userInput = prompt("Guess any number ranging from 1 to 10");
+// if(userInput==randomNum){
+//     alert("congrats you guessed the write number")
+// }
+// else(
+//     alert("Number was: "+ randomNum+" Try again:(")
+// )
 
 
 
