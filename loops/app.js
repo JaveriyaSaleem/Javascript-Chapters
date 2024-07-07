@@ -125,16 +125,6 @@
 // =======================Question 8============================
 // 8. Write a program to identify the largest number in the
 // given array.
-
-
-
-
-
-
-
-
-
-
 // if (userInputForChecking == )
 
 
