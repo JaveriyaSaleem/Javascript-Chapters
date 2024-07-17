@@ -133,3 +133,101 @@
 // document.write('Gross payment Payable(after Due Date) :'+afterDueDate+'<br>');
 
 
+
+    // Working again
+// 1. Write a program that displays current date and time in
+// your browser. 
+    var todaysDate = new Date();
+    // document.write(todaysDate)
+
+// 2. Write a program that alerts the current month in words.
+// For example December.
+  var getMonth = todaysDate.getMonth()
+//   document.write(getMonth + "<br>")  
+ var myMonths = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+//  document.write("Month: " + myMonths[getMonth]);
+
+// 3. Write a program that alerts the first 3 letters of the current
+// day, for example if today is Sunday then alert will show
+// Sun.
+var getDay = todaysDate.getDay();
+// document.write(getDay);
+var myDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+// document.write("Today "+ myDays[getDay])
+
+// 4. Write a program that displays a message “It’s Fun day” if
+// its Saturday or Sunday today.
+// var userInput = prompt("What's the day today?").toLowerCase();
+//     if(userInput== "saturday"|| userInput=="sunday"){
+//         document.write("It's a Fun Day!!")
+        
+//     }
+// 5. Write a program that shows the message “First fifteen
+// days of the month” if the date is less than 16th of the month
+// else shows “Last days of the month”.
+// var getDate = todaysDate.getDate();
+// // document.write(getDate);
+// if(getDate<16){
+//     document.write("First Fifteen days of Month")
+// }
+// else{
+//     document.write("Last Days of the Month")
+// }
+// 6. Write a program that determines the minutes since
+// midnight, Jan. 1, 1970 and assigns it to a variable that
+// hasn't been declared beforehand. Use any variable you like
+// to represent the Date object.
+// document.write(todaysDate + "<br>");
+// var getMili = todaysDate.getTime();
+// document.write("Elapsed milliseconds since January 1, 1970: "+getMili+"<br>");
+// document.write("Elapsed minutes since January 1, 1970: "+(getMili/(1000*60)))
+
+// 7. Write a program that tests whether it's before noon and
+// alert “Its AM” else “its PM”.
+// var hourRN = todaysDate.getHours();
+
+// if(hourRN <12){
+//     document.write("Time is "+todaysDate.toLocaleDateString()+ " it's AM")
+// }
+// else{
+//     document.write("Time is "+ todaysDate.toLocaleTimeString()+" it's PM")
+// }
+// 8. Write a program that creates a Date object for the last day
+// of the last month of 2020 and assigns it to variable named
+// laterDate.
+
+// var letterDate = new Date("31 Dec 2020");
+// document.write(letterDate);
+// 9. Create a date object of the starting date of this Ramadan
+// and alert the number of days past since 1st Ramadan?
+// Note: 1st Ramadan was on June 18, 2015
+// var todayMili = todaysDate.getTime();
+// var ramadanDate = new Date("18 June 2015");
+// var ramadanMili = ramadanDate.getTime();
+// var minusss = todayMili-ramadanMili;
+
+// document.write(Math.floor(minusss/(1000*60*60*24))+ " days have been passed")
+
+// 10. Write a program that displays in your browser the
+// seconds that elapsed between the reference date and the
+// beginning of 2015.
+// var refereneceDate = new Date("5 Dec 2015");
+// var anotherDate = new Date("1 Jan 2015");
+// var referenceMili = refereneceDate.getTime();
+// var anotherMili = anotherDate.getTime();
+// var difference = referenceMili-anotherMili
+// document.write("On Reference Date "+ refereneceDate +"  "+ Math.floor(difference/(1000*60))+" have been passed since begining of 2015")
+
+// 11. Create a Date object for the current date and time.
+// Extract the hours, reset the date object an hour ahead and
+// finally display the date object in your browser.
+// document.write("Current Date: "+ todaysDate +"<br>")
+// var todyhrs = todaysDate.getHours()-1;
+// // document.write(todyhrs);
+// var settingHrs = todaysDate.setHours(todyhrs);
+// document.write("Last Hour: "+todaysDate)
+
+// 12. Write a program that creates a date object and show the
+// date in an alert box that is reset to 100 years back?
+
+
