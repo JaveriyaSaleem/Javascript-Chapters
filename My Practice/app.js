@@ -279,6 +279,9 @@
 
 // }
 // alert(password);
+var text = "My Name is World War II and i can do any World War II"
+var text = text.replace(/World War II/g, "the Second World War");
+console.log(text)
 
 
 
