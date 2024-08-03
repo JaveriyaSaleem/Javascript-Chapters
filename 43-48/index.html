@@ -24,31 +24,44 @@
      deleted. -->
      <table>
         <thead>
-            <td><strong>Index</strong></td>
-            <td><strong>Name</strong></td>
-            <td><strong>Class</strong></td>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
         </thead>
         <tbody>
         <tr>
             <td>1.</td>
             <td><strong>John</strong></td>
             <td>10</td>
-            <td><button>Delete</button></td>
+            <td><button onclick="remove(this)">Delete</button></td>
         </tr>
         <tr>
             <td>2.</td>
             <td><strong>Megan</strong></td>
             <td>9</td>
-            <td><button>Delete</button></td>
+            <td><button onclick="remove(this)">Delete</button></td>
         </tr>
         <tr>
             <td>3.</td>
             <td><strong>Blair</strong></td>
             <td>7</td>
-            <td><button>Delete</button></td>
+            <td><button onclick="remove(this)">Delete</button></td>
         </tr>
     </tbody>
      </table>
+     <!-- code worked!! -->
+     <!-- 4. Display an image in browser. Change the picture on mouseover and set the
+     first picture on mouseout. -->
+     <div>
+        <img src="image/Smily.png" alt="Smily" onmouseover="src='image/Cutie.png'" onmouseout="src='image/Smily.png'">
+     </div>
+     <!-- 5. Show a counter in browser. Counter should increase on click on increase
+button and decrease on click on decrease button. And show updated counter
+value in browser. -->
+<p id="counter">0</p>
+<button onclick="increase()">Increase</button>
+<button onclick="decrease()">decrease</button>
+<!-- completed!  -->
 
 
 
