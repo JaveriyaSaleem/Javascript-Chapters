@@ -279,10 +279,63 @@
 
 // }
 // alert(password);
-var text = "My Name is World War II and i can do any World War II"
-var text = text.replace(/World War II/g, "the Second World War");
-console.log(text)
+// var text = "My Name is World War II and i can do any World War II"
+// var text = text.replace(/World War II/g, "the Second World War");
+// console.log(text)
 
+// ======================== EVENT.TARGET USAGE ==========================
+// function over(event){
+//     console.log(event)
+//     if(event.type == "mouseover"){
+//         event.target.src= "https://i.ytimg.com/vi/lV8pZpdlaNM/sddefault.jpg"
+//     }
+//     else{
+//         event.target.src = "https://static1.moviewebimages.com/wordpress/wp-content/uploads/2022/12/temp-1200x630-3.jpg"
+//     }
+// }
+// we don't need to additional variables or make any condition by giviing it type we can run condition 
+
+// var longPara = "In conclusion, manifesting good thoughts and becoming the best version of yourself is an ongoing process that requires mindfulness, positivity, intentionality, and self-care. By cultivating a positive mindset, setting clear intentions, and taking consistent action toward your goals, you can transform your life and reach your full potential. Remember, the power to change your life lies within your thoughts, so choose them wisely."
+
+
+// console.log(longPara.slice(0,60)+"....")
+// var paraText = document.getElementById('para');
+// paraText.innerHTML = longPara.slice(0,60)+"...."
+// function mouseEvent(event){
+//     if(event.type == "mouseover"){
+//         paraText.className = "green-bg"
+//         paraText.innerHTML = longPara
+
+//     }
+//     else{
+//         paraText.innerHTML = longPara.slice(0,60)+"...."
+//     }
+// }
+// var zip = document.getElementById("inputZip");
+// var city;
+// function fillCity(){
+//     // using switch 
+//     switch (zip.value){
+//         case "20":
+//         city = "Karachi"
+//         break;
+//         case "30":
+//         city = "Lahore"
+//         break;
+//         default:
+//             console.log("No City")/ 
+//     }
+//     document.getElementById("inputCity").value = city
+// }
+function messageSend(){
+    
+    if(event.keyCode == 13){
+        setTimeout(function() {
+            document.getElementById("para").innerText = " Hi How are you?"
+        }, 2000);
+         
+    }
+}
 
 
 
