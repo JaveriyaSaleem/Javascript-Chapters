@@ -327,15 +327,17 @@
 //     }
 //     document.getElementById("inputCity").value = city
 // }
-function messageSend(){
+// function messageSend(){
     
-    if(event.keyCode == 13){
-        setTimeout(function() {
-            document.getElementById("para").innerText = " Hi How are you?"
-        }, 2000);
+//     if(event.keyCode == 13){
+//         setTimeout(function() {
+//             document.getElementById("para").innerText = " Hi How are you?"
+//         }, 2000);
          
-    }
-}
+//     }
+// }
+// Objects 
+
 
 
 
