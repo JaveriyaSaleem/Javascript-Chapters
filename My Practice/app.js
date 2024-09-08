@@ -338,6 +338,14 @@
 // }
 // Objects 
 
+var studentDetails = {
+    Name : "Javeriya",
+    "Last Name": "Mohammad Saleem",
+    "Course" : "Web and App",
+    "Phone Number" : +"03178451359" ,
+
+}
+console.log(typeof(studentDetails["Phone Number"]))
 
 
 
