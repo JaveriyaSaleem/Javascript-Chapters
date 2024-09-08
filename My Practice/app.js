@@ -338,14 +338,41 @@
 // }
 // Objects 
 
-var studentDetails = {
-    Name : "Javeriya",
-    "Last Name": "Mohammad Saleem",
-    "Course" : "Web and App",
-    "Phone Number" : +"03178451359" ,
+// var studentDetails = {
+//     Name : "Javeriya",
+//     "Last Name": "Mohammad Saleem",
+//     "Course" : "Web and App",
+//     "Phone Number" : +"03178451359" ,
 
-}
-console.log(typeof(studentDetails["Phone Number"]))
+// }
+// console.log(typeof(studentDetails["Phone Number"]))
+
+// var objWthMethod = {
+//     Name : {
+//         "Location": {
+//             "data": undefined
+//         }
+//     },
+//     Father : "Mohammad Saleem",
+//     Nooo    : function (){
+//          return `${this.Father} (${this.Name.Location.data})`
+//     } 
+// }
+// var objecttt = objWthMethod.Nooo;
+// objecttt() //it will show window variable
+// console.log(objWthMethod.Name.Location)
+// objWthMethod.Name.Location.data = "added"
+// console.log(objWthMethod.Name.Location.data);
+// console.log("Name" in objWthMethod)
+// console.log(objWthMethod.Nooo())
+
+// function aFunction (ddd){
+//     console.log(ddd)
+// }
+// aFunction(33)
+
+
+
 
 
 
