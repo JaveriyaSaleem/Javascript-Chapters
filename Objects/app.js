@@ -88,3 +88,9 @@ var cars = [
 ]
 // console.log(cars[0].Model.Colors[2])
 // console.log(cars[1].Model.Established)
+
+console.log(Object.keys(cars[1].Model))
+var objectLength = Object.keys(cars[1].Model);
+for(var i = 0; i<objectLength.length;i++){
+console.log(cars[1].Model[objectLength[i]])
+}
