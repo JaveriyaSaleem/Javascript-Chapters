@@ -95,3 +95,5 @@ for(var i = 0; i<objectLength.length;i++){
 console.log(cars[1].Model[objectLength[i]])
 }
 console.log(typeof(cars[1].Model))
+
+// free hokr quiz ka kaam kronga 
